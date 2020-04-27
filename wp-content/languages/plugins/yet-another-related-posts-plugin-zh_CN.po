@@ -1,0 +1,359 @@
+# Translation of Plugins - Yet Another Related Posts Plugin (YARPP) - Stable (latest release) in Chinese (China)
+# This file is distributed under the same license as the Plugins - Yet Another Related Posts Plugin (YARPP) - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-02-12 15:15:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: zh_CN\n"
+"Project-Id-Version: Plugins - Yet Another Related Posts Plugin (YARPP) - Stable (latest release)\n"
+
+#: includes/template_builtin.php:38
+msgid "%f is the YARPP match score between the current entry and this related entry. You are seeing this value because you are logged in to WordPress as an administrator. It is not shown to regular visitors."
+msgstr "YARPP 中的 %f 是指当前文章和关联文章之间的匹配程度。当您以管理员的身份登录时才能查阅，游客等其他权限是不能查阅的。"
+
+#: classes/YARPP_Core.php:1319 classes/YARPP_Meta_Box_Display_Feed.php:58
+msgid "Related posts brought to you by <a href='%s'>Yet Another Related Posts Plugin</a>."
+msgstr "以上关联文章由 <a href='%s'>Yet Another Related Posts Plugin</a> 提供支持。"
+
+#: includes/yarpp_myisam_notice.php:13
+msgid "The MyISAM check has been overridden. You may now use the \"consider titles\" and \"consider bodies\" relatedness criteria."
+msgstr "The MyISAM check has been overridden. You may now use the \"consider titles\" and \"consider bodies\" relatedness criteria."
+
+#: includes/yarpp_options.php:8
+msgid "The YARPP database has an error which could not be fixed."
+msgstr "YARPP 数据库中出现一个错误，无法修复。"
+
+#: classes/YARPP_Meta_Box.php:77
+msgid "do not consider"
+msgstr "不参考"
+
+#: classes/YARPP_Meta_Box.php:78
+msgid "consider"
+msgstr "参考"
+
+#: classes/YARPP_Meta_Box.php:79
+msgid "consider with extra weight"
+msgstr "作为主要参考指标"
+
+#: includes/yarpp_meta_boxes_hooks.php:14
+msgid "\"The Pool\""
+msgstr "全局设置"
+
+#: includes/yarpp_meta_boxes_hooks.php:23
+msgid "\"Relatedness\" options"
+msgstr "关联设置"
+
+#: classes/YARPP_Meta_Box_Relatedness.php:10
+msgid "Match threshold:"
+msgstr "匹配值："
+
+#: classes/YARPP_Meta_Box_Relatedness.php:11
+msgid "Titles: "
+msgstr "标题："
+
+#: classes/YARPP_Meta_Box_Relatedness.php:12
+msgid "Bodies: "
+msgstr "正文："
+
+#: includes/yarpp_meta_boxes_hooks.php:35
+msgid "Display options <small>for your website</small>"
+msgstr "显示设置"
+
+#: classes/YARPP_Meta_Box_Display_Web.php:15
+msgid "This option automatically displays related posts right after the content on single entry pages. If this option is off, you will need to manually insert <code>related_posts()</code> or variants (<code>related_pages()</code> and <code>related_entries()</code>) into your theme files."
+msgstr "根据右侧的代码示例，自动插入关联文章到您的页面中，当您取消该选项时，需要通过手工加入代码 <code>related_posts()</code> 或者根据需求插入 (<code>related_pages()</code> and <code>related_entries()</code>) 到您的模板文件中。"
+
+#: classes/YARPP_Meta_Box_Display_Web.php:11
+msgid "Website display code example"
+msgstr "网站显示的代码示例"
+
+#: classes/YARPP_Meta_Box_Display_Feed.php:11
+#: classes/YARPP_Meta_Box_Display_Web.php:11
+msgid "(Update options to reload.)"
+msgstr "（保存设置后生效。）"
+
+#: classes/YARPP_Meta_Box_Display_Feed.php:16
+#: classes/YARPP_Meta_Box_Display_Web.php:27
+msgid "Maximum number of related posts:"
+msgstr "最多关联篇数"
+
+#: classes/YARPP_Meta_Box_Display_Feed.php:45
+#: classes/YARPP_Meta_Box_Display_Web.php:56
+msgid "Before / after related entries:"
+msgstr "主体起止标签"
+
+#: classes/YARPP_Meta_Box_Display_Feed.php:45
+#: classes/YARPP_Meta_Box_Display_Feed.php:46
+#: classes/YARPP_Meta_Box_Display_Feed.php:51
+#: classes/YARPP_Meta_Box_Display_Web.php:56
+#: classes/YARPP_Meta_Box_Display_Web.php:57
+#: classes/YARPP_Meta_Box_Display_Web.php:62
+msgid "For example:"
+msgstr "例如："
+
+#: classes/YARPP_Meta_Box_Display_Feed.php:46
+#: classes/YARPP_Meta_Box_Display_Web.php:57
+msgid "Before / after each related entry:"
+msgstr "条目起止标签"
+
+#: classes/YARPP_Meta_Box_Display_Feed.php:48
+#: classes/YARPP_Meta_Box_Display_Web.php:59
+msgid "Show excerpt?"
+msgstr "显示摘要？"
+
+#: classes/YARPP_Meta_Box_Display_Feed.php:49
+#: classes/YARPP_Meta_Box_Display_Web.php:60
+msgid "Excerpt length (No. of words):"
+msgstr "摘要字符数"
+
+#: classes/YARPP_Meta_Box.php:85
+msgid "Order results:"
+msgstr "排序方式："
+
+#: classes/YARPP_Meta_Box.php:89
+msgid "score (high relevance to low)"
+msgstr "匹配值（有高到低）"
+
+#: classes/YARPP_Meta_Box.php:90
+msgid "score (low relevance to high)"
+msgstr "匹配值（由低到高）"
+
+#: classes/YARPP_Meta_Box.php:91
+msgid "date (new to old)"
+msgstr "日期（由新到旧）"
+
+#: classes/YARPP_Meta_Box.php:92
+msgid "date (old to new)"
+msgstr "日期（由旧到新）"
+
+#: classes/YARPP_Meta_Box.php:93
+msgid "title (alphabetical)"
+msgstr "标题（按字母顺序排列）"
+
+#: classes/YARPP_Meta_Box.php:94
+msgid "title (reverse alphabetical)"
+msgstr "标题（按逆向字母排列）"
+
+#: classes/YARPP_Meta_Box_Display_Feed.php:38
+#: classes/YARPP_Meta_Box_Display_Feed.php:53
+#: classes/YARPP_Meta_Box_Display_Web.php:49
+#: classes/YARPP_Meta_Box_Display_Web.php:64
+msgid "Default display if no results:"
+msgstr "无匹配时："
+
+#: classes/YARPP_Meta_Box_Display_Feed.php:58
+#: classes/YARPP_Meta_Box_Display_Web.php:71
+msgid "Help promote Yet Another Related Posts Plugin?"
+msgstr "帮助推广关联文章（YARPP）插件？"
+
+#: classes/YARPP_Meta_Box_Display_Feed.php:58
+msgid "This option will add the code %s. Try turning it on, updating your options, and see the code in the code example to the right. These links and donations are greatly appreciated."
+msgstr "选中该项后会在模板中加入以下代码：%s. 设置更新后可以在右侧的代码示例看到。真诚地感谢您的推广或捐赠。"
+
+#: includes/yarpp_meta_boxes_hooks.php:47
+msgid "Display options <small>for RSS</small>"
+msgstr "RSS 相关设置"
+
+#: classes/YARPP_Meta_Box_Display_Feed.php:13
+msgid "Display related posts in feeds?"
+msgstr "在文章底部显示？"
+
+#: classes/YARPP_Meta_Box_Display_Feed.php:14
+msgid "Display related posts in the descriptions?"
+msgstr "在摘要中显示？(当RSS只输出摘要时)"
+
+#: classes/YARPP_Meta_Box_Display_Feed.php:14
+msgid "This option displays the related posts in the RSS description fields, not just the content. If your feeds are set up to only display excerpts, however, only the description field is used, so this option is required for any display at all."
+msgstr "该选项将会在 RSS 的摘要区中插入关联文章，而不是在正文区中。如果您的 RSS 只输出摘要，请选择该项。"
+
+#: classes/YARPP_Meta_Box_Display_Feed.php:11
+msgid "RSS display code example"
+msgstr "RSS 显示的代码示例"
+
+#: classes/YARPP_Meta_Box_Display_Feed.php:51
+#: classes/YARPP_Meta_Box_Display_Web.php:62
+msgid "Before / after (excerpt):"
+msgstr "摘要起止标签："
+
+#: includes/yarpp_options.php:133
+msgid "Options saved!"
+msgstr "保存成功！"
+
+#: classes/YARPP_Core.php:116 classes/YARPP_Core.php:126
+#: classes/YARPP_Core.php:561 classes/YARPP_Core.php:572
+#: includes/template_metabox.php:30 includes/template_widget.php:13
+msgid "No related posts."
+msgstr "无关联文章"
+
+#. #-#-#-#-#  tmp-yet-another-related-posts-plugin.pot (Yet Another Related
+#. Posts Plugin 4.2.5)  #-#-#-#-#
+#. Plugin URI of the plugin/theme
+#. #-#-#-#-#  tmp-yet-another-related-posts-plugin.pot (Yet Another Related
+#. Posts Plugin 4.2.5)  #-#-#-#-#
+#. Author URI of the plugin/theme
+msgid "http://www.yarpp.com/"
+msgstr "http://www.yarpp.com/"
+
+#: includes/yarpp_meta_boxes_hooks.php:73
+msgid "Contact YARPP"
+msgstr "联系YARPP"
+
+#: classes/YARPP_Admin.php:95
+msgid "Configure"
+msgstr "配置"
+
+#: classes/YARPP_Admin.php:399
+msgid "Settings"
+msgstr "设置"
+
+#: classes/YARPP_Admin.php:199
+msgid "The following information is sent back to YARPP:"
+msgstr "以下信息发送回YARPP："
+
+#: classes/YARPP_Admin.php:292
+msgid "Thank you for installing <span>Yet Another Related Posts Plugin</span>!"
+msgstr "感谢您安装 <span>Yet Another Related Posts 插件</span>!"
+
+#: classes/YARPP_Core.php:114 classes/YARPP_Core.php:124
+#: classes/YARPP_Core.php:151 classes/YARPP_Core.php:153
+#: classes/YARPP_Core.php:559 classes/YARPP_Core.php:570
+#: classes/YARPP_Core.php:925
+msgid "Related posts:"
+msgstr "相关文章："
+
+#: classes/YARPP_Admin.php:93
+msgid "Related Posts"
+msgstr "相关文章"
+
+#: classes/YARPP_Meta_Box_Contact.php:18
+msgid "YARPP on Twitter"
+msgstr "YARPP on Twitter"
+
+#: classes/YARPP_Meta_Box_Contact.php:13
+msgid "YARPP Forum"
+msgstr "YARPP论坛"
+
+#: classes/YARPP_Meta_Box_Contact.php:33
+msgid "Review YARPP on WordPress.org"
+msgstr "在WordPress.org给YARPP一个评价"
+
+#: classes/YARPP_Meta_Box_Relatedness.php:18
+msgid "Display results from all post types"
+msgstr "显示所有文章类型的结果"
+
+#: classes/YARPP_Meta_Box_Display_Feed.php:37
+#: classes/YARPP_Meta_Box_Display_Web.php:48
+msgid "Default image (URL):"
+msgstr "默认图片(URL地址):"
+
+#: classes/YARPP_Meta_Box_Display_Feed.php:45
+#: classes/YARPP_Meta_Box_Display_Feed.php:46
+#: classes/YARPP_Meta_Box_Display_Feed.php:51
+#: classes/YARPP_Meta_Box_Display_Web.php:56
+#: classes/YARPP_Meta_Box_Display_Web.php:57
+#: classes/YARPP_Meta_Box_Display_Web.php:62
+msgid " or "
+msgstr "或"
+
+#: classes/YARPP_Admin.php:288
+msgid "%1$s updated successfully."
+msgstr "%1$s 更新成功。"
+
+#: classes/YARPP_Admin.php:124 classes/YARPP_Admin.php:154
+msgid "Frequently Asked Questions"
+msgstr "常见问题"
+
+#: classes/YARPP_Cache_Bypass.php:99
+msgid "Example post "
+msgstr "示例文章"
+
+#. Author of the plugin/theme
+msgid "Adknowledge"
+msgstr "知识"
+
+#: classes/YARPP_Meta_Box_Display_Web.php:25
+msgid "Also display in archives"
+msgstr "在归档页面中也同样显示"
+
+#. Plugin Name of the plugin/theme
+msgid "Yet Another Related Posts Plugin"
+msgstr "Yet Another Related Posts 插件"
+
+#: classes/YARPP_Meta_Box_Relatedness.php:19
+msgid "Show only previous posts?"
+msgstr "只显示以前的文章？"
+
+#. Description of the plugin/theme
+msgid "Adds related posts to your site and in RSS feeds, based on a powerful, customizable algorithm. Enabling YARPP Pro gives you access to even more powerful features. <a href=\"http://www.yarpp.com\" target=\"_blank\">Find out more</a>."
+msgstr "基于强大的可自定义算法，将相关帖子添加到您的网站和RSS feed中。 启用YARPP Pro可让您访问甚至更强大的功能。<a href=\"http://www.yarpp.com\" target=\"_blank\">了解更多信息</a>。"
+
+#: classes/YARPP_Meta_Box_Display_Feed.php:36
+#: classes/YARPP_Meta_Box_Display_Web.php:47
+msgid "Heading:"
+msgstr "标题:"
+
+#: classes/YARPP_Admin.php:203
+msgid "In addition, YARPP also loads an invisible pixel image with your YARPP results to know how often YARPP is being used."
+msgstr "此外，YARPP还会在您的YARPP结果中加载不可见的像素图像，以了解使用YARPP的频率。"
+
+#: classes/YARPP_Meta_Box_Relatedness.php:7
+msgid "The higher the match threshold, the more restrictive, and you get less related posts overall. The default match threshold is 5. If you want to find an appropriate match threshhold, take a look at some post's related posts display and their scores. You can see what kinds of related posts are being picked up and with what kind of match scores, and determine an appropriate threshold for your site."
+msgstr "匹配值越高，限制就越严格，您将得到更少的相关文章。默认的匹配值是 5。如果您想得到一个合适的匹配值，您可以看看您一些文章下面的相关文章显示，并觉得它们怎么样，是否合适。然后做出调整，看看其他匹配值的结果怎么样，是否合适，以此来确定一个适合您网站的匹配值。"
+
+#: includes/template_metabox.php:28
+msgid "Whether all of these related entries are actually displayed and how they are displayed depends on your YARPP display options."
+msgstr "所有这些相关内容是否实际显示以及它们如何显示取决于你的YARPP显示选项设置。"
+
+#: classes/YARPP_Admin.php:136
+msgid "Optional Data Collection"
+msgstr "可选数据收集"
+
+#: classes/YARPP_Admin.php:192
+msgid "Contributing this data will help make YARPP better for you and for other YARPP users."
+msgstr "贡献这些数据将帮助您和其他YARPP用户更好地使用YARPP。"
+
+#: classes/YARPP_Admin.php:429
+msgid "Related entries may be displayed once you save your entry"
+msgstr "相关内容在您保存后将可能会显示"
+
+#: includes/template_metabox.php:12
+msgid "These are the related entries for this entry. Updating this post may change these related posts."
+msgstr "这是目前输出内容的相关文章。更新这个文章可能会改变这些相关文章。"
+
+#: classes/YARPP_Admin.php:177
+msgid ""
+"With your permission, YARPP will send information about YARPP's settings, usage, and environment\n"
+"                    back to a central server at "
+msgstr ""
+"经您的许可，YARPP将发送有关YARPP的设置，用法和环境的信息回到\n"
+"位于的中央服务器"
+
+#: classes/YARPP_Meta_Box_Relatedness.php:18
+msgid "When \"display results from all post types\" is off, only posts will be displayed as related to a post, only pages will be displayed as related to a page, etc."
+msgstr "当“显示所有文章类型的结果”选项为关闭时，文章下只会显示相关的文章，页面下只会显示相关的页面，诸如此类。"
+
+#: classes/YARPP_Meta_Box_Relatedness.php:7
+msgid "YARPP limits the related posts list by (1) a maximum number and (2) a <em>match threshold</em>."
+msgstr "YARPP 插件的相关文章列表基于 (1) 最大关联数 (2) <em>匹配值</em>."
+
+#: classes/YARPP_Meta_Box_Display_Feed.php:13
+msgid "This option displays related posts at the end of each item in your RSS and Atom feeds. No template changes are needed."
+msgstr "此选项在RSS和Atom feeds中每个项目的末尾显示相关的文章。 无需更改模板。"
+
+#: classes/YARPP_Admin.php:366
+msgid "Show example code output"
+msgstr "显示示例代码输出"
+
+#: classes/YARPP_Admin.php:130 classes/YARPP_Admin.php:168
+msgid "Developing with YARPP"
+msgstr "用YARPP开发"
+
+#: classes/YARPP_Admin.php:185
+msgid ""
+"This information will be used to improve YARPP in the future and help decide future development\n"
+"\t\t            decisions for YARPP."
+msgstr "这些信息将在将来用于改进YARPP并帮助决定未来的开发"
